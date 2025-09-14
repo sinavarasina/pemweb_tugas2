@@ -35,5 +35,7 @@ Mengapa web ini dapat disebut sebagai **website dengan struktur semantik**:
 
 ## 3. Hasil Validasi
 Validasi dilakukan melalui [W3C Markup Validation Service](https://validator.w3.org/).  
+![alt text](https://github.com/sinavarasina/pemweb_tugas2/blob/main/screenshoot/Screenshot_2025-09-14_23-08-42.png)
 - **index.html:** ✔ Lolos validasi tanpa error.  
+![alt text](https://github.com/sinavarasina/pemweb_tugas2/blob/main/screenshoot/Screenshot_2025-09-14_23-05-02.png)
 - **news/news-page.html:** ✔ Lolos validasi tanpa error.  
