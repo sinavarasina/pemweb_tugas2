@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage Varasina - Pemweb 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            padding: 8px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            border: 12px double black;
+            border-radius: 6px;
+            height: 96px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header img {
+            height: 100%;
+            object-fit: contain;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            font-size: 24px;
+            padding-right: 30px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 20px;
+        }
+
+        .articles-wrapper {
+            flex: 3;
+        }
+
+        section {
+            background: lightgrey;
+            padding: 16px;
+            border-radius: 8px;
+        }
+
+        article {
+            background: white;
+            padding: 12px;
+            margin-top: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        aside {
+            flex: 1;
+            padding: 16px;
+            font-style: italic;
+            background-color: lightgray;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border: 12px double black;
+            border-radius: 6px;
+            color: darkgray;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo/LogoWeb.png" alt="Logo Webpage Varasina">
+        <h1 style="color: red;">Tugas 2 Pemweb</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="news/news-page.html">Berita itera</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-content">
+            <div class="articles-wrapper">
+                <h2>Ini adalah halaman utama (index.html)</h2>
+                <article>
+                    <h3>main() -> void</h3>
+                    <h4>Halaman ini berisi kehampaan</h4>
+                    <h5> ~ all you can see are void ~ </h5>
+                    <h6> ~ all you can see are emptiness ~ </h6>
+                </article>
+            </div>
+            <aside>
+                <h2>NULL</h2>
+                <p>kosong - hanya untuk menampilkan aside</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Section untuk table</h2>
+            <p>Menunjukan tugas tugas yang sudah diselesaikan</p>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tugas</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>header</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>nav</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>main</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>article</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>section</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>aside</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>footer</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>heading terstruktur</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>minimal 1 table</td>
+                            <td>✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section>
+            <h2>Berita Itera</h2>
+            <article>
+                <h3>Terkait Berita Itera</h3>
+                <p>Pengguna dapat mengunjungi laman "Berita Itera" yang berada di navbar</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Website untuk Tugas 2 - Varasina Farmadani - 123140107 - PemWeb RB</p>
+    </footer>
+</body>
+
+</html>
