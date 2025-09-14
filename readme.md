@@ -1,5 +1,6 @@
 # Dokumentasi Tugas 2 Pemweb  
 Varasina Farmadani - 123140107  
+[Github Pages](https://sinavarasina.github.io/pemweb_tugas2/index.html)
 
 ## 1. Alasan Struktur Semantik
 Dalam pembuatan halaman web ini digunakan elemen **HTML5 semantik** seperti `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`, dan heading `<h1>`–`<h6>`.  
