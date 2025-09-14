@@ -20,8 +20,6 @@ Mengapa web ini dapat disebut sebagai **website dengan struktur semantik**:
 7. Bagian bawah halaman menggunakan `<footer>` dengan informasi penulis/tugas.  
 8. Struktur heading `<h1>` sampai `<h6>` digunakan secara berurutan sesuai hirarki.  
 
-Dengan poin-poin tersebut, halaman ini bukan sekadar kumpulan tag `<div>`, tetapi jelas menunjukkan **hubungan antarbagian dokumen sesuai makna semantik HTML5**.  
-
 ## 2. Tantangan dan Solusi
 - **Tantangan 1:** Menentukan layout dengan header, nav, main, aside, dan footer agar rapi.  
   - **Solusi:** Menggunakan CSS `flexbox` untuk mengatur posisi header (logo, judul, dan navigasi).  
