@@ -50,15 +50,6 @@
             padding-top: 20px;
         }
 
-        .main-content {
-            display: flex;
-            gap: 20px;
-        }
-
-        .articles-wrapper {
-            flex: 3;
-        }
-
         section {
             background: lightgrey;
             padding: 16px;
@@ -74,11 +65,11 @@
         }
 
         aside {
-            flex: 1;
             padding: 16px;
             font-style: italic;
             background-color: lightgray;
             border-radius: 8px;
+            float: right;
         }
 
         footer {
@@ -127,21 +118,21 @@
     </header>
 
     <main>
-        <section class="main-content">
-            <div class="articles-wrapper">
-                <h2>Ini adalah halaman utama (index.html)</h2>
-                <article>
-                    <h3>main() -> void</h3>
-                    <h4>Halaman ini berisi kehampaan</h4>
-                    <h5> ~ all you can see are void ~ </h5>
-                    <h6> ~ all you can see are emptiness ~ </h6>
-                </article>
-            </div>
+        <section>
+            <h2>Ini adalah halaman utama (index.html)</h2>
             <aside>
                 <h2>NULL</h2>
                 <p>kosong - hanya untuk menampilkan aside</p>
             </aside>
+            <article>
+                <h3>main() -> void</h3>
+                <h4>Halaman ini berisi kehampaan</h4>
+                <h5> ~ all you can see are void ~ </h5>
+                <h6> ~ all you can see are emptiness ~ </h6>
+            </article>
+
         </section>
+
 
         <section>
             <h2>Section untuk table</h2>
